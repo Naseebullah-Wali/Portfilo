@@ -1,0 +1,60 @@
+
+.left{
+    position: sticky;
+    display: block;
+    float: right;
+    width: 70%;
+    /*margin-left: 2%;*/
+    /*background-color: darksalmon;*/
+
+}
+.right{
+    display: block;
+    float: left;
+    width: 30%;
+    /*background-color: #888888;*/
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul{
+    /*display: inline-block;*/
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    /*flex-direction: column-reverse;*/
+    /*display: inline-block;*/
+    /*padding: 0%;*/
+    /*margin-right: 2%;*/
+}
+a{
+    /*display: inline-block;*/
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    /*padding: 1%;*/
+    width: 100%;
+    /*float: right;*/
+    /*margin-right: 0;*/
+
+}
+.home{
+    /*background-color: black;*/
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 907px;
+    width: 100%;
+    /*opacity: 0.0.0.0 0.4;*/
+
+
+}
+/*.fortext{*/
+/*    margin-top: 50%;*/
+/*}*/
