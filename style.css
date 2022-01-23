@@ -1,4 +1,11 @@
-
+.main{
+    background-color: lightsalmon;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 907px;
+    width: 100%;
+}
 .left{
     position: sticky;
     display: block;
@@ -45,16 +52,27 @@ a{
 
 }
 .home{
-    /*background-color: black;*/
-    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/hero-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 907px;
     width: 100%;
+    /*background-color: black;*/
+
     /*opacity: 0.0.0.0 0.4;*/
 
 
 }
-/*.fortext{*/
-/*    margin-top: 50%;*/
-/*}*/
+.fortext{
+    margin-top: 20%;
+    text-align: left;
+    margin-left: 10%;
+    color: whitesmoke;
+    width: 40%;
+    font-weight: bold;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+.Portbut{
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 150px;
+    border-color: orangered;
+    background: transparent;
+}
