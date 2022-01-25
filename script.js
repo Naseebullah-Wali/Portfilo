@@ -1,7 +1,9 @@
-const hamburger = document.querySelector('#main .homesec .col-8  .hamburger');
-const mobile_menu = document.querySelector('#main .homesec .nav ul');
-const menu_item = document.querySelectorAll('#main .homesec .nav ul li a');
-const header = document.querySelector('#main.container');
+
+
+const hamburger = document.querySelector('.row .homesec .col-8  .hamburger');
+const mobile_menu = document.querySelector('.row .homesec .col8 ul');
+const menu_item = document.querySelectorAll('.row .homesec .col8 ul li a');
+const header = document.querySelector('.row .homesec');
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
