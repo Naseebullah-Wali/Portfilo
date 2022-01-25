@@ -262,6 +262,7 @@ button:hover{
 #footer .social-icon {
     display: flex;
     flex-direction: row;
+    /*margin: auto;*/
     gap: 30px;
     /*border-spacing: 10em;*/
     margin-bottom: 10%;
